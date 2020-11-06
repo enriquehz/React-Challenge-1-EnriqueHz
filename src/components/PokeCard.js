@@ -12,8 +12,13 @@ function PokeCard() {
   return (
     <div>
       <h1> {pokemonName} </h1>
-      <p></p>
-      <p></p>
+      <p>
+        <img src={spriteDefault} alt="Default" />
+      </p>
+      <p>
+        <img src={spriteShiny} alt="Shiny" />
+      </p>
+      <a href={pokemonVideo}>{pokemonName} Video</a>
     </div>
   );
 }
